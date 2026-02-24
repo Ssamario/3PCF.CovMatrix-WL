@@ -1,10 +1,15 @@
 # 3PCF.CovMatrix-WL
 
 Code to compute the Gaussian piece of the 3PCF in a harmonic basis of scalar fields over the sphere within Limber approximation
-Authors:
-Sofia Samario-Nava (ssamario@icf.unam.mx),
-Alejandro Aviles (avilescervantes@gmail.com)
 
+## Authors
+
+- **Sofía Samario-Nava**  
+  ssamario@icf.unam.mx
+
+- **Alejandro Avilés**  
+  aviles@icf.unam.mx
+  
 This code uses the **GNU Scientific Library (GSL)** for the numerical integration routines and the evaluation of Bessel functions.
 
 Make sure GSL is installed on your system before compiling.
