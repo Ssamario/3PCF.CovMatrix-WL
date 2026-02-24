@@ -6,16 +6,6 @@
 #include <math.h>
 
 
-
-/*
-rm a.out *.o
-gcc -Wall -I/home/waco/gsl/include -c Tot3_aa.c 
-gcc -Wall -I/home/waco/gsl/lib Tot3_aa.o -lgsl -lgslcblas -lm 
-./a.out r=0.0581776 theta1=0.00332769 theta2=0.00332769 thetap1=0.0284513 thetap2=0.0284513 ellmin=1 ellmax=2000 m=0 mp=0 ppp=100
-*/
-
-
-
 clock_t start_t, end_t; 
 #define n_data_max 100000
 double ell_data[n_data_max],Cls_data[n_data_max];
