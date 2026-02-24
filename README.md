@@ -10,11 +10,11 @@ Code to compute the Gaussian piece of the 3PCF in a harmonic basis of scalar fie
 - **Alejandro Avilés**  
   aviles@icf.unam.mx
   
+## Compilation
+
 This code uses the **GNU Scientific Library (GSL)** for the numerical integration routines and the evaluation of Bessel functions.
 
 Make sure GSL is installed on your system before compiling.
-
-### Compilation
 
 To compile the code for the first time, run:
 ```
