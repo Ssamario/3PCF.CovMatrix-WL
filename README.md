@@ -5,15 +5,23 @@ Authors:
 Sofia Samario (ssamario@icf.unam.mx)
 Alejandro Aviles (avilescervantes@gmail.com)
 
-To perform the integration routines, we take advantage of the GNU Scientific Library (GSL) package that provides us with the Bessel functions.
+This code uses the **GNU Scientific Library (GSL)** for the numerical integration routines and the evaluation of Bessel functions.
 
-To run the code for the first time 
-Run in the terminal 
+Make sure GSL is installed on your system before compiling.
+
+### Compilation
+
+To compile the code for the first time, run:
+```
 gcc -Wall -I/path/to/gsl/include -c IntegralCovMatrix.c
-then 
-gcc -Wall -I/path/to/gsl/lib IntegralCovMatrix.o -lgsl -lgslcblas -lm
+gcc -Wall IntegralCovMatrix.o -L/path/to/gsl/lib -lgsl -lgslcblas -lm -o IntegralCovMatrix
+```
 
+Replace ```/path/to/gsl/``` with the actual installation path of GSL on your system.
 
+### Running the Code
 
-
-
+After compilation, execute:
+```
+./IntegralCovMatrix
+```
