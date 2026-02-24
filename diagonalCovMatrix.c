@@ -5,17 +5,6 @@
 #include <time.h>
 #include <math.h>
 
-
-
-/*
-rm a.out *.o
-gcc -Wall -I/home/waco/gsl/include -c Tot3_aa.c 
-gcc -Wall -I/home/waco/gsl/lib Tot3_aa.o -lgsl -lgslcblas -lm 
-./a.out ellmin=1 ellmax=2000 m=0 mp=0 ppp=50
-*/
-
-
-
 clock_t start_t, end_t; 
 #define n_data_max 100000
 double ell_data[n_data_max],Cls_data[n_data_max];
