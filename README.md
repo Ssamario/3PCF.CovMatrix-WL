@@ -30,4 +30,9 @@ After compilation, execute:
 ```
 ./IntegralCovMatrix
 ```
-## Python
+## Python usage
+
+To run the code in Python, import the `AnalyticalCov.py` module, which contains the functions needed to compute the covariance matrix.
+
+An example of how to use these functions is provided in `Covariance_example.ipynb`.
+
